@@ -1,0 +1,22 @@
+.vote-card{
+  font-size: 18px;
+
+  .header {
+    text-align: initial;
+    font-weight: bold;
+    font-size: 20px;
+
+    span {
+      color: red;
+      text-transform: capitalize;
+    }
+  }
+
+  .description {
+    text-align: initial;
+  }
+
+  img {
+    margin-bottom: 15px;
+  }
+}

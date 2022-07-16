@@ -1,0 +1,47 @@
+.card {
+  &.add-card{
+    margin: 30px auto !important;
+    min-width: 320px;
+    text-align: initial;
+    padding: 8px 12px !important;
+
+    .header {
+      text-align: center;
+    }
+
+    .meta {
+      margin-bottom: 16px;
+      font-weight: bold;
+    }
+
+    form {
+      div {
+        &:first-of-type {
+          color: red;
+          font-weight: bold;
+          font-size: 16px;
+        }
+
+        input {
+          padding: 8px 16px !important;
+        }
+      }
+
+      p {
+        text-align: center;
+        font-weight: 700;
+        margin: 12px auto !important;
+      }
+
+      .button {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.message {
+  width: fit-content;
+  margin: auto !important;
+  padding: 14px 100px !important;
+}

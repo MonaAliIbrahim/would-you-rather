@@ -1,0 +1,42 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.question-container {
+  margin: 24px auto;
+  padding: 0 24px;
+  width: 100%;
+
+  .segment {
+    &.bottom {
+      min-height: calc(100vh - 260px);
+    }
+  }
+
+  .item {
+    font-weight: bolder;
+    font-size: 15px;
+
+    &.active {
+      color: red !important;
+    }
+  }
+
+  .question-card {
+    text-align: initial;
+    width: auto;
+    height: 100%;
+
+    .title {
+      text-transform: capitalize;
+      font-weight: bolder;
+      font-size: 18px;
+    }
+
+    p {
+      line-height: 24px;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 75%;
+  }
+}

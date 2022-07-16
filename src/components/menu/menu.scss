@@ -1,0 +1,18 @@
+.menu {
+  .item {
+    font-size: 16px;
+    text-transform: capitalize !important;
+    color: black !important;
+    font-weight: 500 !important;
+
+    &.active {
+      color: red !important;
+    }
+  }
+
+  .avatar-container {
+    span {
+      margin-right: 8px;
+    }
+  }
+}

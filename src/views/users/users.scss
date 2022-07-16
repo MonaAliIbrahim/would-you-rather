@@ -1,0 +1,30 @@
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+
+  .meta {
+    text-align: initial;
+    padding: 6px 10px 0;
+    // color: #db2828 !important;
+    font-weight: 600;
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-around;
+
+    p {
+      display: flex;
+      justify-content: space-between;
+      font-size: 16px;
+      text-transform: capitalize;
+
+      span {
+        font-weight: 600;
+        margin: auto 12px;
+      }
+    }
+  }
+}
